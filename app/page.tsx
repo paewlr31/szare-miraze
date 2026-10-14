@@ -185,7 +185,6 @@ export default function HomePage() {
         <p>
           {site.street}, {postalCity}
         </p>
-        <a href="/wlasciciel">Panel właściciela</a>
       </footer>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     </>

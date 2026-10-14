@@ -9,10 +9,6 @@ export function publicUrl(): string {
   return value.replace(/\/$/, "");
 }
 
-export function panelUrl(): string {
-  return `${publicUrl()}/wlasciciel`;
-}
-
 export function cancelUrl(token: string): string {
   return `${publicUrl()}/anuluj/${token}`;
 }
