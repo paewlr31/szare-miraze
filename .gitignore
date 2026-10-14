@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+tmp
+data/bookings.json
+.env.local
+*.log
+.DS_Store
