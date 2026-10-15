@@ -65,7 +65,9 @@ export default function HomePage() {
           </div>
           <div className="hero-copy">
             <p className="kicker">Apartament do wynajęcia</p>
-            <h1>Szare Miraże</h1>
+            <h1>
+              Szare <em>Miraże</em>
+            </h1>
             <p className="lede">
               Parterowy apartament w Busku-Zdroju, z widokiem na ogród. Sypialnia, aneks kuchenny i salon z rozkładaną sofą.
             </p>
