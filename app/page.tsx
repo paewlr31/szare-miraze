@@ -9,13 +9,17 @@ const facts = [
   ["Parter", "Mieszkanie na parterze"],
   ["Sypialnia", "Jedno łóżko dwuosobowe, pościel na miejscu"],
   ["Aneks kuchenny", "Lodówka i miejsce do przygotowania posiłków"],
-  ["Salon", "Telewizor z płaskim ekranem"],
+  ["Salon", "Rozkładana sofa dla dwóch osób i telewizor"],
   ["Łazienka", "Ręczniki dla gości"],
   ["Wi‑Fi", "Bezpłatne w całym apartamencie"],
 ];
 
 const nearby = [
+  ["Główny deptak", "200 m"],
+  ["Rynek", "500 m"],
   ["Galeria Sztuki Zielona", "500 m"],
+  ["Tężnia", "600 m"],
+  ["Park", "600 m"],
   ["Zespół Klasztorny Ponorbertański", "w pobliżu"],
   ["Synagoga", "w pobliżu"],
   ["Dom towarowy", "w pobliżu"],
@@ -61,11 +65,9 @@ export default function HomePage() {
           </div>
           <div className="hero-copy">
             <p className="kicker">Apartament do wynajęcia</p>
-            <h1>
-              Szare <em>Miraże</em>
-            </h1>
+            <h1>Szare Miraże</h1>
             <p className="lede">
-              Parterowy apartament w Busku-Zdroju, z widokiem na ogród. Sypialnia, aneks kuchenny i salon — spokojne miejsce dla dwojga.
+              Parterowy apartament w Busku-Zdroju, z widokiem na ogród. Sypialnia, aneks kuchenny i salon z rozkładaną sofą.
             </p>
             <div className="hero-actions">
               <a className="button" href="#rezerwacja">
@@ -89,7 +91,7 @@ export default function HomePage() {
                 Szare Miraże leżą w Busku-Zdroju, przy osiedlu Kazimierza Pułaskiego. Z okien widać ogród, a w całym mieszkaniu działa bezpłatne Wi‑Fi.
               </p>
               <p>
-                Na miejscu jest jedna sypialnia, aneks kuchenny z lodówką i salon z telewizorem. Ręczniki i pościel czekają przygotowane.
+                Na miejscu jest jedna sypialnia, aneks kuchenny z lodówką i salon z telewizorem. W salonie stoi rozkładana sofa dla dwóch osób. Ręczniki i pościel czekają przygotowane.
               </p>
             </div>
             <aside className="score">
@@ -121,7 +123,7 @@ export default function HomePage() {
             <h2>Busko-Zdrój za progiem</h2>
           </div>
           <p className="lede narrow">
-            Obok są zdrojowy park, klasztor i synagoga. Do Galerii Sztuki Zielona jest około pięciuset metrów.
+            Główny deptak jest około 200 m stąd, rynek około 500 m, a tężnia i park około 600 m.
           </p>
           <Gallery photos={gardenPhotos} layout="strip" />
           <ul className="distances">

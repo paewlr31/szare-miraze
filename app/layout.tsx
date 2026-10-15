@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Fraunces, Outfit } from "next/font/google";
+import { Fraunces, Oswald, Outfit } from "next/font/google";
 import "./globals.css";
 
 const display = Fraunces({
   subsets: ["latin", "latin-ext"],
   variable: "--font-display",
+  display: "swap",
+});
+
+const logo = Oswald({
+  subsets: ["latin", "latin-ext"],
+  weight: ["500", "600"],
+  variable: "--font-logo",
   display: "swap",
 });
 
@@ -30,7 +37,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="pl" className={`${display.variable} ${sans.variable}`}>
+    <html lang="pl" className={`${display.variable} ${sans.variable} ${logo.variable}`}>
       <body>
         <a className="skip" href="#tresc">
           Przejdź do treści

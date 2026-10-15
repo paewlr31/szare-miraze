@@ -7,9 +7,7 @@ export function Logo({ light = false }: { light?: boolean }) {
         <path d="M2 12c8-6 16-6 24 0s16 6 36 0" opacity="0.34" />
       </svg>
       <span>
-        <strong>
-          Szare <em>Miraże</em>
-        </strong>
+        <strong>Szare Miraże</strong>
         <small>Busko-Zdrój</small>
       </span>
     </span>
